@@ -1,0 +1,29 @@
+# ── Core automation ───────────────────────────────────────────────────────────
+pyautogui>=0.9.54
+
+# ── Image recognition (button finding) ───────────────────────────────────────
+opencv-python-headless>=4.8.0
+Pillow>=9.0.0
+
+# ── Window management ─────────────────────────────────────────────────────────
+# Windows only – handles focus / minimize / restore of desktop windows
+pygetwindow>=0.0.9
+
+# Linux only – install these system packages instead of pip packages:
+#   sudo apt-get install wmctrl xdotool scrot
+
+# ── Math / timing ─────────────────────────────────────────────────────────────
+numpy>=1.24.0
+
+# ── Configuration ─────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+PyYAML>=6.0
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+colorlog>=6.7.0
+
+# ── System monitoring (CPU/RAM safety guards) ─────────────────────────────────
+psutil>=5.9.0
+
+# ── Keyboard kill-switch ──────────────────────────────────────────────────────
+pynput>=1.7.6
